@@ -1,0 +1,141 @@
+* { 
+    box-sizing: border-box; 
+    padding:0; 
+    margin:0; 
+    max-width:100%; /* never bigger than parent */
+    border: 1px solid grey;
+    }
+
+html {
+    font-size: 62.5%;
+} 
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.4rem;
+    color: white;
+    margin: 45px 100px;
+    padding-top: 8px;
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    transition: 1.2s;
+    
+}
+
+a:hover {
+    background: black;
+}
+
+
+
+.a1 {
+    background-color: #FF764E;
+    display: inline-block;
+    margin-left: 170px; 
+}
+
+
+.a2 {
+    background: #5ED3EB;
+    display: inline-block; 
+
+}
+
+.a3 {
+    background: #FFCD69;
+    display: inline-block; 
+}
+
+
+
+.left-img {
+    width: 25%;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 60px;
+    display: inline;
+}
+
+
+.header-text {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+}
+
+.title {
+    font-family: 'Chelsea Market', cursive;
+    display: inline-block;
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 200px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2.2rem;
+    display: inline-block;
+}
+
+.subtitle2 {
+    width: 450px;
+    font-size: 2.2rem;
+    display: inline-block;
+}
+
+p.main {
+    background-color: #DDB9A3;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+}
+
+#fire {
+    text-align: center;
+}
+
+.icon {
+    display: block;
+    margin: 20px auto;
+    width: 50px;
+}
+
+.icontext {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#links-bottom {
+    background: #F9E7DC;
+}
+
+#wide-pic {
+        background-image: url('assets/footer_img.jpg');
+        height:40vh;
+        background-size:cover;
+        background-attachment:fixed;
+      }
+      
+}
+
+    
